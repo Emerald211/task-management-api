@@ -11,7 +11,7 @@ const app = express();
 
 
 app.use(cors({
-	origin: "http://localhost:3000", 
+	origin: "https://task-manager-frontend-pearl-ten.vercel.app", 
 	credentials: true, 
 }));
   
